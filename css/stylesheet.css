@@ -1,0 +1,128 @@
+.container {
+    margin: 0 auto;
+    padding-left: 32px;
+    width: 375px;
+
+}
+
+header {
+    height: auto;
+    width: 375px;
+    background-color: #FFFFFF;
+}
+
+
+.header-left {
+    width: 88px;
+    height: 25px;
+    margin: 15px 0;
+    margin-left: 32px;
+}
+
+.header-right {
+
+}
+
+main {
+    width: 375px;
+}
+
+.fv {
+    background-color: #E1ECEE;
+    height: 600px;
+    position: relative;
+}
+
+
+.fv-image {
+    position: absolute;
+    top: 80px;
+    left: 32px;
+    width: 343px;
+    height: 384px;
+    overflow: hidden;
+    border-radius: 120px 0 0 0;
+    z-index: 1;
+    
+}
+
+.fv-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% 160%;
+    transform: scale(1.8);
+
+}
+
+.copy-container {
+    font-family: YuMincho;
+    position: absolute;
+    top: 42px;
+    left: 32px;
+    z-index: 3;
+
+}
+
+.copy-container h1 {
+    font-size: 24px;
+    color: #4D4D4D;
+    line-height: 32px;
+    letter-spacing: 2px;
+    
+}
+
+.copy-container span {
+    font-size: 44px;
+    color: #63A9C6;
+
+}
+
+.marker img {
+    position: absolute;
+    top: 140px;
+    left: 24px;
+    z-index: 2;
+}
+
+.subcopy {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 24px;
+    z-index: 3;
+
+}
+
+.cta {
+    position: absolute;
+    bottom: 32px;
+    left: 24px;
+    z-index: 3;
+}
+
+.cta-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 311px;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: #F3CFD7;
+    color: #4D4D4D;
+    font-family: YuGothic;
+    text-decoration: none;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.cta-main {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-top {
+    font-size: 16px;
+}
+  
